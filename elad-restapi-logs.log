@@ -1,0 +1,6 @@
+2022-03-09 12:41:08,598:rest_api:decorated:74616:71436:WARNING:A user tried to used a function that requires token but token is not valid.
+2022-03-09 12:41:34,016:rest_api:login:74616:76172:WARNING:A user tried to login but the username:Itay does not exist in the db
+2022-03-09 12:42:44,696:rest_api:signup:77104:75656:INFO:New user: User[id_=None, publib_id="d4b6aa96-9e9a-4000-b7f1-590223beef5c, "username="Elad", password="pbkdf2:sha256:260000$DDjCK4nzoKbftu3g$0cd5b9c74b28760762028cd6d833669682696be5169fcb6c4c2fdca60c4af51f"] has been created successfully!
+2022-03-09 12:43:11,750:rest_api:signup:77104:75312:ERROR:An anonymous tried to sign up with the username:Elad but this username already exists in the db
+2022-03-09 12:44:52,475:rest_api:decorated:74976:76980:INFO:A user tried to used a function that requires token but token is missing.
+2022-03-09 12:45:42,471:rest_api:get_or_post_customer:74976:51720:INFO:New customer: Customer[id_=None, name="Michal", city="Tel-Mond"] has been created!
